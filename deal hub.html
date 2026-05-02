@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Deals Hub</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 15px;
+      text-align: center;
+    }
+    .deal-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 20px;
+    }
+    .deal-card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      width: 250px;
+      margin: 10px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .deal-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-bottom: 1px solid #ddd;
+    }
+    .deal-card h3 {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+    .deal-card a {
+      display: inline-block;
+      margin: 10px;
+      padding: 8px 12px;
+      background: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+    .deal-card a:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🔥 Best Deals Hub 🔥</h1>
+    <p>Amazon | Flipkart | Meesho</p>
+  </header>
+
+  <div class="deal-container">
+    <!-- Amazon Deal -->
+    <div class="deal-card">
+      <img src="https://m.media-amazon.com/images/I/61j17F3lG-L._AC_UL480_FMwebp_QL65_.jpg" alt="Amazon Deal">
+      <h3>Amazon Smartwatch</h3>
+      <a href="https://www.amazon.in/" target="_blank">View Deal</a>
+    </div>
+
+    <!-- Flipkart Deal -->
+    <div class="deal-card">
+      <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/0/r/8/-original-imahfgykzqgkzjzj.jpeg?q=70" alt="Flipkart Deal">
+      <h3>Flipkart Smartphone</h3>
+      <a href="https://www.flipkart.com/" target="_blank">View Deal</a>
+    </div>
+
+    <!-- Meesho Deal -->
+    <div class="deal-card">
+      <img src="https://images.meesho.com/images/products/12345678.jpg" alt="Meesho Deal">
+      <h3>Meesho Saree</h3>
+      <a href="https://www.meesho.com/" target="_blank">View Deal</a>
+    </div>
+  </div>
+</body>
+</html>
